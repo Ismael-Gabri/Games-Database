@@ -1,0 +1,9 @@
+carousel-item{
+    align-items: center;
+}
+
+.carousel{
+    margin-top: 25px;
+    margin-left: 550px;
+    width: 800px;
+}
