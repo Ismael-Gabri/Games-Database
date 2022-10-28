@@ -1,15 +1,36 @@
-ul {
-    padding-left: 212px;
-}
 
-a{
-    padding-left: 340px;
-}
-
-li{
+.nav-item{
     padding: 10px;
 }
 
+.nav-options{
+    padding-left: 99px;
+}
+
+.logo{
+    padding-left: 340px;
+}
+
+.search-nav{
+    margin-right: 645px; 
+    padding-right: 10px;
+    background: #00254D;
+    height: 50px;
+    border-radius: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+
 .search{
-    padding-right: 200px;
+    padding-right: 10px;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 10px;
+    color: white;
+    width: 190px;
+    font-size: 16px;
+    line-height: 40px;
 }
