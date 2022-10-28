@@ -7,3 +7,7 @@ carousel-item{
     margin-left: 550px;
     width: 800px;
 }
+
+.carousel-inner {
+    box-shadow: 6px 6px 6px black;
+}

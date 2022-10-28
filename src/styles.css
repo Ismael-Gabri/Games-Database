@@ -1,13 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 body{
-    background-color: #111A24;
+    background: linear-gradient(#111A24, #132334);
 }
 
 h2{
     color: white;
 }
-
-.swiper {
-    width: 97%;
-    height: 100%;
-  }
