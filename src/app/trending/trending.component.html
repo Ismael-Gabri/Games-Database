@@ -4,11 +4,9 @@
         <button class="btn btn-primary ver-mais-btn">Ver mais</button>
     </h3>
     <ul>
-        <li><app-game-card></app-game-card></li>
-        <li><app-game-card></app-game-card></li>
-        <li><app-game-card></app-game-card></li>
-        <li><app-game-card></app-game-card></li>
-        <li><app-game-card></app-game-card></li>
+        <li *ngFor="let game of games">
+            <app-game-card [game]="games" [jogo]="jogo"></app-game-card>
+        </li>
     </ul>
 
     <h3>
@@ -17,11 +15,7 @@
     </h3>
 
     <ul>
-        <li><app-game-card></app-game-card></li>
-        <li><app-game-card></app-game-card></li>
-        <li><app-game-card></app-game-card></li>
-        <li><app-game-card></app-game-card></li>
-        <li><app-game-card></app-game-card></li>
+        <li *ngFor="let game of games"><app-game-card [game]="games"></app-game-card></li>
     </ul>
 
     <h3>
@@ -30,10 +24,6 @@
     </h3>
 
     <ul>
-        <li><app-game-card></app-game-card></li>
-        <li><app-game-card></app-game-card></li>
-        <li><app-game-card></app-game-card></li>
-        <li><app-game-card></app-game-card></li>
-        <li><app-game-card></app-game-card></li>
+        <li *ngFor="let game of games"><app-game-card [game]="games"></app-game-card></li>
     </ul>
 </div>
