@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { SwiperComponent } from "swiper/angular";
 
 // import Swiper core and required modules
@@ -15,9 +15,10 @@ SwiperCore.use([Pagination, Navigation]);
 })
 export class TrendingComponent implements OnInit {
 
-  constructor (private trendingService: TrendingService) {}
+  jogo: Games = {};
+  games: Games[] = [];
 
-  public games: Games[] = [];
+  constructor (private trendingService: TrendingService) {}
   
   ngOnInit() {
     this.GetGames();
@@ -40,13 +41,13 @@ export class TrendingComponent implements OnInit {
 }
 
 interface Games{
-  type: string;
-  name: string;
-  genre: Genre[];
-  initialPrice: number;
-  discount_Percentage: number;
-  finalPrice: number;
-  screenshotPath: string;
+  type?: string;
+  name?: string;
+  genre?: Genre[];
+  initialPrice?: number;
+  discount_Percentage?: number;
+  finalPrice?: number;
+  screenshotPath?: string;
 }
 
 enum Genre{
