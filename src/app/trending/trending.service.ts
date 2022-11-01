@@ -10,7 +10,7 @@ export class TrendingService {
   constructor(private httpClient: HttpClient) { }
 
   GetGamesList(){
-    return this.httpClient.get<Games[]>(`${ API_PATH }v1/games`).toPromise();
+    return this.httpClient.get<Games[]>(`${ API_PATH }v1/games`);
   }
 }
 

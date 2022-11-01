@@ -18,14 +18,23 @@ export class TrendingComponent implements OnInit {
   constructor (private trendingService: TrendingService) {}
 
   public games: Games[] = [];
-
-  GetGamesList(){
-    this.trendingService.GetGamesList()
-      .then(games => console.log(games))
-      .catch(error => console.error(error));
-  }
   
-  ngOnInit(): void {
+  ngOnInit() {
+    this.GetGames();
+  }
+
+  //Linha comentada, se quiser usar essa função pricisa mudar o retorno sem ser observable, pois o observable serve para atribuir o retorna a variaveis
+  // GetGamesList(){
+  //   this.trendingService.GetGamesList()
+  //     .then(games => console.log(games))
+  //     .catch(error => console.error(error));
+  // }
+
+  GetGames(){
+    this.trendingService.GetGamesList().subscribe(games => {
+      this.games = games;
+      console.log(this.games);
+    })
   }
 
 }
