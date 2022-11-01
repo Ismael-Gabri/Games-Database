@@ -14,7 +14,7 @@
 .search-nav{
     margin-right: 645px; 
     padding-right: 10px;
-    background: #00254D;
+    background: #263241;
     height: 50px;
     border-radius: 40px;
     align-items: center;
@@ -33,4 +33,8 @@
     width: 190px;
     font-size: 16px;
     line-height: 40px;
+}
+
+.navbar{
+    box-shadow: 6px 5px 6px black;
 }
