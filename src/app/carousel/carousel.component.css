@@ -3,11 +3,13 @@ carousel-item{
 }
 
 .carousel{
-    margin-top: 25px;
+    margin-top: -240px;
     margin-left: 550px;
     width: 800px;
+    padding-bottom: 10px;
 }
 
 .carousel-inner {
+    border-radius: 10px;
     box-shadow: 6px 6px 6px black;
 }

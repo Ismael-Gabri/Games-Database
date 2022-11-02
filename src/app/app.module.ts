@@ -11,6 +11,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BottonInfoComponent } from './botton-info/botton-info.component';
 import { TopSalesComponent } from './top-sales/top-sales.component';
 import { ReleasesComponent } from './releases/releases.component';
+import { BannerComponent } from './banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ReleasesComponent } from './releases/releases.component';
     GameCardComponent,
     BottonInfoComponent,
     TopSalesComponent,
-    ReleasesComponent
+    ReleasesComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
