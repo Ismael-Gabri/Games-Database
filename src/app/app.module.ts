@@ -8,6 +8,7 @@ import { TrendingComponent } from './trending/trending.component';
 import { GameCardComponent } from './game-card/game-card.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BottonInfoComponent } from './botton-info/botton-info.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     NavBarComponent,
     CarouselComponent,
     TrendingComponent,
-    GameCardComponent
+    GameCardComponent,
+    BottonInfoComponent
   ],
   imports: [
     BrowserModule,
