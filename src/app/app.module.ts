@@ -9,6 +9,8 @@ import { GameCardComponent } from './game-card/game-card.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BottonInfoComponent } from './botton-info/botton-info.component';
+import { TopSalesComponent } from './top-sales/top-sales.component';
+import { ReleasesComponent } from './releases/releases.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { BottonInfoComponent } from './botton-info/botton-info.component';
     CarouselComponent,
     TrendingComponent,
     GameCardComponent,
-    BottonInfoComponent
+    BottonInfoComponent,
+    TopSalesComponent,
+    ReleasesComponent
   ],
   imports: [
     BrowserModule,

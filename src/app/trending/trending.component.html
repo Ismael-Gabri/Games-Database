@@ -15,8 +15,8 @@
     </h3>
 
     <ul>
-        <li *ngFor="let game of games">
-            <app-game-card [game]="games" [jogo]="jogo"></app-game-card>
+        <li *ngFor="let jogo of games.slice(6, 11)">
+            <app-top-sales [game]="games" [jogo]="jogo"></app-top-sales>
         </li>
     </ul>
 
@@ -26,8 +26,8 @@
     </h3>
 
     <ul>
-        <li *ngFor="let game of games">
-            <app-game-card [game]="games" [jogo]="jogo"></app-game-card>
+        <li *ngFor="let jogo of games.slice(11, 17)">
+            <app-releases [game]="games" [jogo]="jogo"></app-releases>
         </li>
     </ul>
 </div>
