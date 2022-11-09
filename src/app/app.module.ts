@@ -12,6 +12,8 @@ import { BottonInfoComponent } from './botton-info/botton-info.component';
 import { TopSalesComponent } from './top-sales/top-sales.component';
 import { ReleasesComponent } from './releases/releases.component';
 import { BannerComponent } from './banner/banner.component';
+import { HomeComponentComponent } from './home-component/home-component.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -23,13 +25,15 @@ import { BannerComponent } from './banner/banner.component';
     BottonInfoComponent,
     TopSalesComponent,
     ReleasesComponent,
-    BannerComponent
+    BannerComponent,
+    HomeComponentComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
