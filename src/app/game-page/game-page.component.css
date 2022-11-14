@@ -1,0 +1,90 @@
+body{
+    background: linear-gradient(#111A24, #132334);
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    padding-right: 10px;
+    list-style-type: none;
+}
+
+h3{
+    color: white;
+    padding-left: 10px;
+}
+
+h4{
+    color: rgba(255, 255, 255, 0.623);
+    padding-left: 0px;
+}
+
+p{
+    color: rgba(255, 255, 255, 0.623);
+}
+
+.buy-content{
+    padding-left: 89%;
+}
+
+.game{
+    padding-left: 10px;
+    padding-top: 50px;
+}
+
+.graph{
+    border-radius: 10px;
+    height: 350px;
+    width:600px;
+    background-color: #293f66;
+    margin-left: 97px;
+}
+
+.store-card{
+    display: flex;
+    border-radius: 10px;
+    background-color: #293f66;
+    width:230px;
+    height: 80px;
+    margin-top: -20px;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.content{
+    margin-left: 100px;
+}
+
+.main-information{
+    margin-left: 100px;
+    margin-bottom: 80px;
+}
+
+.stores{
+    display: flex;
+    padding-left: 824px;
+}
+
+.pc-specs{
+    background-color: #293f66;
+    margin-left: -640px;
+    width: 620px;
+    height: 300px;
+    margin-top: -20px;
+}
+
+.buy-logo{
+    margin-top: -3px;
+    margin-left: 80px;
+}
+
+.game-image{
+    padding-left: 13px;
+}
+
+.game-name{
+    padding-left: 756px;
+}

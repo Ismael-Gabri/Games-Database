@@ -1,6 +1,24 @@
 .botton-info{
     background-color: #0b111a;
     margin-top: 100px;
-    height: 200px;
+    height: 150px;
     width: 100%;
+    
+}
+
+p{
+    color: white;
+}
+
+.Title{
+    padding-top: 25px;
+    text-align: center;
+}
+
+.information{
+    text-align: center;
+}
+
+button{
+    margin-right: 15px;
 }
