@@ -14,6 +14,7 @@ import { ReleasesComponent } from './releases/releases.component';
 import { BannerComponent } from './banner/banner.component';
 import { HomeComponentComponent } from './home-component/home-component.component';
 import { AppRoutingModule } from './app-routing.module';
+import { GamePageComponent } from './game-page/game-page.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { AppRoutingModule } from './app-routing.module';
     TopSalesComponent,
     ReleasesComponent,
     BannerComponent,
-    HomeComponentComponent
+    HomeComponentComponent,
+    GamePageComponent
   ],
   imports: [
     BrowserModule,
